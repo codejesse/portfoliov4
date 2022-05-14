@@ -9,7 +9,7 @@ const ProjectsWrapper = styled.div`
     padding-top: 10rem;
     margin-bottom: 10rem;
     @media (max-width: 600px) {
-        margin-top: 10rem;
+        margin-top: 19rem;
     }
 `;
 
@@ -70,12 +70,9 @@ const DetailsPara = styled.p`
     margin-top: -1rem;
     line-height: 49px;
     color: #3f4451;
-    /* @media(max-width: 768px) {
-     font-family: 'Open Sans';
-     font-style: normal;
-     font-weight: 400;
-     font-size: 14px;
-    } */
+    @media (max-width: 600px) {
+       font-size: 20px;
+   }
 `;
 
 const MoreButton = styled.div`

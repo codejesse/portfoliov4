@@ -10,7 +10,7 @@ const AboutWrapper = styled.div`
     @media (max-width: 768px) {
       flex-direction: column;
       justify-content: center;
-      margin: 0;
+      margin-top: 10rem;
     }
 `;
 

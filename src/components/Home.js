@@ -29,7 +29,7 @@ const HeaderIntro = styled.div`
     @media (max-width: 600px) {
         padding: 0;
         font-size: 40px;
-        margin-top: -10rem;
+        margin-top: -20rem;
     }
 `;
 
@@ -41,7 +41,7 @@ const HeaderText = styled.div`
     width: 55%;
     text-align: center;
     margin: auto;
-    margin-top: -13rem;
+    margin-top: -16rem;
     color: #0d0e10;
     @media (max-width: 600px) {
         font-size: 40px;
