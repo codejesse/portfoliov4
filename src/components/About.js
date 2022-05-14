@@ -6,11 +6,12 @@ const AboutWrapper = styled.div`
     display: flex;
     flex-direction: row;
     margin: 4rem;
-    margin-top: 13rem;
+    margin-top: 6rem;
     @media (max-width: 768px) {
       flex-direction: column;
       justify-content: center;
-      margin-top: 10rem;
+      margin: 0;
+      padding-top: 8rem;
     }
 `;
 

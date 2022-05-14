@@ -15,8 +15,10 @@ const HomeWrapper = styled.div`
     /* border: 1px solid black; */
     @media (max-width: 600px) {
         padding-top: auto;
+        height: 70vh;
     }
 `;
+
 
 const HeaderIntro = styled.div`
     margin-bottom: 12.5rem;
