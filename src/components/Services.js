@@ -66,7 +66,7 @@ function Services() {
     <ServicesWrapper>
       <Card>
         <LogoPosition>
-          <img width="80px" height="80px" src='figma.png' alt='icon' />
+          <img width="80px" height="80px" src='Figma.png' alt='icon' />
         </LogoPosition><ServicesHeading><h1>UI design</h1></ServicesHeading>
         <ServicesPara>Learning the
           fundamentals of UI design
