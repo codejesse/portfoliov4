@@ -15,7 +15,7 @@ const HomeWrapper = styled.div`
     /* border: 1px solid black; */
     @media (max-width: 600px) {
         padding-top: auto;
-        height: 71vh;
+        height: 65vh;
     }
 `;
 
@@ -28,10 +28,10 @@ const HeaderIntro = styled.div`
     font-weight: 600;
     color: #393939;
     font-size: 48px;
-    @media (max-width: 600px) {
+    @media (max-width: 760px) {
         padding: 0;
         font-size: 40px;
-        margin-top: -20rem;
+        margin-top: -10rem;
     }
 `;
 
@@ -43,7 +43,7 @@ const HeaderText = styled.div`
     width: 55%;
     text-align: center;
     margin: auto;
-    margin-top: -16rem;
+    margin-top: -12rem;
     color: #0d0e10;
     @media (max-width: 600px) {
         font-size: 40px;
