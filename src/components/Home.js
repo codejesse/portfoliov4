@@ -11,7 +11,7 @@ const HomeWrapper = styled.div`
     background-image: url("background.png");
     background-repeat: no-repeat;
     background-position: center;
-    height: 100vh;
+    height: 85vh;
     /* border: 1px solid black; */
     @media (max-width: 600px) {
         padding-top: auto;
