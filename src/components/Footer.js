@@ -46,7 +46,7 @@ function Footer() {
             <IconWrapper>
                 <Fade bottom><a target="_blank" rel="noreferrer" href='https://twitter.com/jessebeke/'><img src='Twitter.png' alt='twitter-icon' /></a></Fade>
                 <Fade bottom><a target="_blank" rel="noreferrer" href='https://jessex.vercel.app/'><img src='Instagram.png' alt='instagram-icon' /></a></Fade>
-                <Fade bottom><a target="_blank" rel="noreferrer" href='https://github.com/codejesse/'><img src='Github.png' alt='github-icon' /></a></Fade>
+                <Fade bottom><a target="_blank" rel="noreferrer" href='https://github.com/codejesse/'><img src='GitHub.png' alt='github-icon' /></a></Fade>
                 <Fade bottom><a target="_blank" rel="noreferrer" href='mailto:heya.jesse@gmail.com'><img src='Mail.png' alt='mail-icon' /></a></Fade>
             </IconWrapper>
         </FooterWrapper>
