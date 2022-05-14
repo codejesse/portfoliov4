@@ -29,7 +29,7 @@ const ProjectHeader = styled.h1`
 `;
 
 const ImageWrapper = styled.div`
-   width: 90%;
+   width: 70%;
    height: auto;
    margin: auto;
    border-radius: 20px;
