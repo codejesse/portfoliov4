@@ -75,6 +75,28 @@ const DetailsPara = styled.p`
    }
 `;
 
+const LinksWrapper = styled.div`
+   display: flex;
+   flex-direction: row;
+`;
+
+const LiveSite = styled.p`
+   font-size: 2rem;
+   color: black;
+   margin-right: 2rem;
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 30px;
+   & a {
+       text-decoration: none;
+       color: black;
+   }
+   & a:hover {
+       color: #FFEEDE;
+   }
+`;
+
 const MoreButton = styled.div`
     margin: auto;
     background: #0d0e10;
@@ -114,6 +136,10 @@ function Projects() {
                     <DetailsWrapper>
                         <Fade bottom><DetailsHeader>{work.title}</DetailsHeader></Fade>
                         <Fade bottom><DetailsPara>{work.desc}</DetailsPara></Fade>
+                        <LinksWrapper>
+                            <LiveSite><a href={work.site}>Livesite</a></LiveSite>
+                            <LiveSite><a href={work.github}>Code</a></LiveSite>
+                        </LinksWrapper>
                     </DetailsWrapper>
                 </>
             ))}

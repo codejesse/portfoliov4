@@ -13,7 +13,7 @@ const Works = [
         "desc": "A landing page for a Saas application that allows users to create online e-shops.",
         "image": "oneshop.png",
         "site": "https://oneshop-five.vercel.app/",
-        "github": ""
+        "github": "https://github.com/codejesse/Oneshop"
     },
     // {
     //     "id": 3,
