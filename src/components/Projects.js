@@ -137,7 +137,7 @@ function Projects() {
                         <Fade bottom><DetailsHeader>{work.title}</DetailsHeader></Fade>
                         <Fade bottom><DetailsPara>{work.desc}</DetailsPara></Fade>
                         <LinksWrapper>
-                            <LiveSite><a href={work.site}>Livesite</a></LiveSite>
+                            <LiveSite><a href={work.site}>LiveSite</a></LiveSite>
                             <LiveSite><a href={work.github}>Code</a></LiveSite>
                         </LinksWrapper>
                     </DetailsWrapper>

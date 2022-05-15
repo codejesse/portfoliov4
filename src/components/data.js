@@ -4,8 +4,8 @@ const Works = [
         "title": "Jobbble",
         "desc": "A simple job aggregator site hooked up with remotive jobs API to help developers find their dream job.",
         "image": "Jobbble.png",
-        "site": "",
-        "github": ""
+        "site": "https://jobbble.vercel.app/",
+        "github": "https://github.com/codejesse/Jobbble"
     },
     {
         "id": 2,

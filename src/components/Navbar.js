@@ -84,7 +84,7 @@ function Navbar() {
                 <Fade bottom><List><a href="default.asp">Works</a></List></Fade>
                 <Fade bottom><List><a href="news.asp">About</a></List></Fade>
                 <Fade bottom><List><a href="contact.asp">Contact</a></List></Fade>
-                <Fade bottom><List><a href="about.asp">Resume</a></List></Fade>
+                <Fade bottom><List><a href="https://drive.google.com/file/d/1FBTc8_Z3KaDDXtSiBIcYX8awaFapq1TU/view">Resume</a></List></Fade>
             </ListWrapper>
         </UnorderedList>
     )
