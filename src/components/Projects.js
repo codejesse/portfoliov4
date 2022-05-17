@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 import Works from "./data";
 import Fade from 'react-reveal/Fade';
+import "../App.css"
 
 const ProjectsWrapper = styled.div`
     display: flex;
@@ -143,7 +144,7 @@ function Projects() {
                     </DetailsWrapper>
                 </>
             ))}
-            <MoreButton><a target="_blank" rel="noreferrer" href='https://github.com/codejesse/'><ButtonText>More on Github</ButtonText></a></MoreButton>
+            <MoreButton className='blob red'><a target="_blank" rel="noreferrer" href='https://github.com/codejesse/'><ButtonText>More on Github</ButtonText></a></MoreButton>
         </ProjectsWrapper>
     )
 }
